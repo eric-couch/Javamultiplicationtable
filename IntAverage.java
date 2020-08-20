@@ -12,6 +12,7 @@ public class IntAverage {
         int[] nums = { 5, 17, 24, 5, 8, -3, 28, 59, -10 };
         int min = nums[0];
         int max = nums[0];
+        int sum = 0;
 
         for (int i = 0; i<nums.length; i++){
             if (nums[i] > max) {
@@ -20,10 +21,12 @@ public class IntAverage {
             if (nums[i] < min) {
                 min = nums[i];
             }
+            sum += nums[i];
         }
         System.out.println("max=" + max);
         System.out.println("min=" + min);
-
+        System.out.println("age= " + (double)sum/(double)nums.length);
+        
     }
 
 
