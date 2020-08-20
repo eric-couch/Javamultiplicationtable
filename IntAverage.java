@@ -26,7 +26,7 @@ public class IntAverage {
         System.out.println("max=" + max);
         System.out.println("min=" + min);
         System.out.println("age= " + (double)sum/(double)nums.length);
-        
+
     }
 
 
